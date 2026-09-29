@@ -1,0 +1,15 @@
+{
+  "benchmark_name": "System One Model Benchmark",
+  "version": "1.0",
+  "freeze_date": "2026-09-28",
+  "case_count": 160,
+  "semantic_decision_count": 150,
+  "deterministic_control_count": 10,
+  "clear_label_count": 149,
+  "intentional_ambiguity_count": 11,
+  "structural_error_count": 0,
+  "cases_sha256": "0a68ef2adbbb7c923a9dce8012987488dd4a291fe9697767854e0e01f6a221bf",
+  "question_template_count": 31,
+  "methodology_version": "1.0",
+  "status": "FROZEN"
+}

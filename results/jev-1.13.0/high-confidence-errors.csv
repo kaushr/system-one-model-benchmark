@@ -1,0 +1,4 @@
+case_id,task_family,benchmark_role,expected_answer,selected_answer,top_probability,probabilities
+JDB-058,evidence_relevance,semantic_decision,AMBIGUOUS,NOT_RELEVANT,0.92,"{""AMBIGUOUS"": 0.08, ""NOT_RELEVANT"": 0.92, ""RELEVANT"": 0.0}"
+JDB-091,impact_assessment,semantic_decision,UNKNOWN,NO,0.93,"{""NO"": 0.93, ""UNKNOWN"": 0.07, ""YES"": 0.0}"
+JDB-150,mechanism_classification,semantic_decision,FUNDING,FINANCING_COSTS,1.0,"{""AMBIGUOUS"": 0.0, ""DEMAND"": 0.0, ""FINANCING_COSTS"": 1.0, ""FUNDING"": 0.0, ""LABOR"": 0.0, ""OTHER"": 0.0, ""RESOURCES"": 0.0, ""TECHNOLOGY_FEEDBACK"": 0.0, ""VOLATILITY"": 0.0}"

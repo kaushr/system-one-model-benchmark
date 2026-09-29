@@ -1,0 +1,33 @@
+{
+  "benchmark_name": "System One Model Benchmark",
+  "benchmark_version": "1.0",
+  "cases_sha256": "0a68ef2adbbb7c923a9dce8012987488dd4a291fe9697767854e0e01f6a221bf",
+  "provider": "TypeSafe direct API",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "requested_model_alias": "jev-latest",
+  "resolved_model": "jev-1.13.0",
+  "api_openapi_version": "3.1.0",
+  "api_service_version": "0.2.0",
+  "run_start_utc": "2026-09-29T04:39:42.322489+00:00",
+  "run_end_utc": "2026-09-29T04:40:02.003694+00:00",
+  "request_count": 160,
+  "distinct_cases_requested": 160,
+  "provider_failures": 0,
+  "retries": 0,
+  "request_id_values_recorded": 0,
+  "request_id_note": "No request IDs appeared in the parsed provider body or captured standard request-id fields.",
+  "expected_answer_in_request": false,
+  "input_tokens_total": 71668,
+  "output_tokens_total": 9803,
+  "input_price_usd_per_million_tokens": 0.042,
+  "output_price_usd_per_million_tokens": 0,
+  "pricing_source": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+  "cost_estimate_usd": 0.003010056,
+  "latency_ms": {
+    "mean": 123.15899999999999,
+    "p50": 114.38,
+    "p95": 167.96
+  },
+  "retry_policy": "At most one transport retry for HTTP 503 only, with identical benchmark input; no retry after a successful response.",
+  "api_metadata_checked_utc": "2026-09-29T04:41:24Z"
+}
